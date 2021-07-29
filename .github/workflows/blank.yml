@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       authcode:
-        description: 'Man'
+        description: 'Nhập code'
         required: true
       pincode:
-        description: '123456'
+        description: 'Mã Pin'
         required: true
   
 jobs:
